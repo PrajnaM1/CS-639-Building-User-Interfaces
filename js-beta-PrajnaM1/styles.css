@@ -1,0 +1,63 @@
+th {
+    padding: 5px 5px 5px 5px;
+}
+
+td {
+    padding: 5px 5px 5px 5px;
+}
+
+.hero-image {
+    background-image: url("https://ichef.bbci.co.uk/news/660/cpsprodpb/17098/production/_109106349_badgerportrait_creditsethjackson.jpg");
+    background-color:lightyellow;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+
+.button_big {padding: 14px 40px; font-size: 20px; color: tomato; border-block-color: black; background-color: wheat;}
+
+.bubble {
+	height: 150px;
+	width: 40%;
+	min-width: 200px;
+	background: ivory;
+	display: block;
+    margin: 0 auto;
+    border: 1px groove #a7a7a7;
+	border-radius: 20px;
+	margin-top: 35px;
+    font-size: 30px;
+    color: maroon;
+    text-align: center;
+
+}
+
+.pointer {
+	height: 40px;
+    width: 40px;
+	background: ivory;
+	margin: 0 auto;
+	transform: rotate(45deg);
+	border-radius: 0 0 12px 0;
+	margin-top: -22px;
+	position: relative;
+    left: calc(0.5vw - 50px);
+    border-bottom: 21px groove  #a7a7a7;
+    border-right:21px groove #a7a7a7;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
